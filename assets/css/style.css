@@ -39,7 +39,35 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-
+@import url(https://fonts.googleapis.com/css?family=Lato);
+html {
+  height: 100%;
+}
+body {
+  background-color: #131313;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+}
+h2 {
+  color: #ffffff;
+  font-size: 4em;
+}
+.typed {
+  border-bottom: 2px solid #ffffff;
+}
+.typed-cursor{
+   opacity: 1;
+   animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
