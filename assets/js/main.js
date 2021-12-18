@@ -148,6 +148,15 @@
     })
   }
   /**
+   * Typed Header
+   */
+  new Typed('#typed',{
+  strings : ['Technical Operation Engineer','Configuration & Manage Operation','from Indonesia'],
+  typeSpeed : 100,
+  delaySpeed : 100,
+  loop : true
+});
+  /**
    * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
