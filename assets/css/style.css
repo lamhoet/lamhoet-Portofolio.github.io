@@ -68,6 +68,23 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   display: inline-block;
 }
+<!-- ======= Text slide ======= -->
+.animasi-teks {
+  font-size: 29px;
+  width: 100%;
+  white-space:nowrap;
+  overflow:hidden;
+  -webkit-animation: typing 5s steps(70, end);
+  animation: animasi-ketik 5s steps(70, end);
+}
+
+@keyframes animasi-ketik{
+  from { width: 0; }
+}
+
+@-webkit-keyframes animasi-ketik{
+  from { width: 0; }
+}
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
