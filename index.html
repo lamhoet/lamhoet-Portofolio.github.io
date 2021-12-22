@@ -36,6 +36,54 @@
 </head>
 
 <body>
+     <!-- ======= Efek tulisan ======= -->
+           {
+            background:#007aff;
+            margin-top:200px;
+            margin-left:50px;
+            }
+            #typing {
+            width: 0ch;
+            color: white;
+            float: left;
+            font-family: sans-serif;
+            font-weight:bold;
+            font-size: 60px;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 5s steps(22) 1s infinite alternate;
+            }
+            .lining{
+            	display:flex;
+                font-weight:bold;
+            	font-size: 60px;
+                color:#fb8c00;
+            }
+            #line {
+            float: left;
+            color: white;
+            animation: crow 0.5s linear 0s infinite;
+            }
+            @keyframes typing {
+            from {
+            width: 0ch;
+            }
+            to {
+            width: 25ch;
+            }
+            }
+            @keyframes crow {
+            from {
+            opacity: 0;
+            }
+            to {
+            opacity: 1;
+            }
+          <div class="lining">
+        	<p>Hello World,&nbsp;&nbsp;</p>
+        	<p id="typing">Welcome to Bisabos.com</p>
+        	<p id="line">|</p>            
+        </div>
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="container">
