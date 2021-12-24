@@ -149,7 +149,7 @@
   /**
    * Typed Header
    */
- #typing {
+            .typing {
             width: 0ch;
             color: white;
             float: left;
