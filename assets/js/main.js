@@ -149,12 +149,44 @@
   /**
    * Typed Header
    */
-  new Typed('#typed',{
-  strings : ['Technical Operation Engineer','Configuration & Manage Operation','from Indonesia'],
-  typeSpeed : 100,
-  delaySpeed : 100,
-  loop : true
-});
+ #typing {
+            width: 0ch;
+            color: white;
+            float: left;
+            font-family: sans-serif;
+            font-weight:bold;
+            font-size: 60px;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 5s steps(22) 1s infinite alternate;
+            }
+            .lining{
+            	display:flex;
+                font-weight:bold;
+            	font-size: 60px;
+                color:#fb8c00;
+            }
+            #line {
+            float: left;
+            color: white;
+            animation: crow 0.5s linear 0s infinite;
+            }
+            @keyframes typing {
+            from {
+            width: 0ch;
+            }
+            to {
+            width: 25ch;
+            }
+            }
+            @keyframes crow {
+            from {
+            opacity: 0;
+            }
+            to {
+            opacity: 1;
+            }
+            }
   /**
    * Testimonials slider
    */
