@@ -166,7 +166,7 @@
             	font-size: 60px;
                 color:#fb8c00;
             }
-            #line {
+            .line {
             float: left;
             color: white;
             animation: crow 0.5s linear 0s infinite;
