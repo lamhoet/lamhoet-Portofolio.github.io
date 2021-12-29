@@ -33,17 +33,15 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
     <style>
-           body
+          body
             {
-            background:#fb8c00;
+            background:#007aff;
             margin-top:200px;
-            margin-left:25px;
-            text-align:left;
-            position: fixed;
+            margin-left:40px;
             }
             #typing {
             width: 0ch;
-            color: #FFA500;
+            color: white;
             float: left;
             font-family: sans-serif;
             font-weight:bold;
@@ -52,21 +50,23 @@
             white-space: nowrap;
             animation: typing 5s steps(22) 1s infinite alternate;
             }
-            #typing span{
-            color:#ffff;}
+            .lining{
+            	display:flex;
+                font-weight:bold;
+            	font-size: 20px;
+                color:#fb8c00;
+            }
             #line {
             float: left;
             color: white;
-            font-weight:bold;
-            font-size: 20px;
             animation: crow 0.5s linear 0s infinite;
             }
             @keyframes typing {
             from {
-            width: 5ch;
+            width: 0ch;
             }
             to {
-            width: 70ch;
+            width: 65ch;
             }
             }
             @keyframes crow {
@@ -75,7 +75,6 @@
             }
             to {
             opacity: 1;
-            }
             }
   </style> 
 </head>
@@ -86,8 +85,12 @@
       
       <h1><a href="index.html">Sudarno Lamhot Pakpahan</a></h1>
 
-     <div id="typing"><h2>I'm a, <span>Technical Operation Engineer</h2></span></div><br>
-  
+    <!-- <div id="typing"><h2>I'm a, <span>Technical Operation Engineer</h2></span></div><br>-->
+                <div class="lining">
+        	<p>I'm a,</p>
+        	<p id="typing">Technical Operation Engineer</p>
+        	<p id="line">|</p>            
+        </div>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link active" href="#header">Home</a></li>
